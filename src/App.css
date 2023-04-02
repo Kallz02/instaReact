@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.min{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    margin-top: 2rem;
+}
+
+.container{
+
+    border: solid rgb(61, 60, 60) 1px;
+    display: flex;
+    background-color:rgba(255,255,255,0.05);
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1.5rem;
+    padding: 4rem 2rem;
+    
+    padding-top: 1.7rem;
+    max-width: 25rem;
+    border-radius: 10px;
+}
+
+.usr{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-bottom: 1.5rem;
+}
+
+.usrnme{
+    min-height: 3rem;
+    max-width: 20rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: aliceblue; 
+    background-color:rgba(255,255,255,0.07);
+    border-radius: 20px;
+    border: 2px solid rgb(61, 60, 60);
+}
+.btn{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    border: 2px solid rgb(61, 60, 60);
+    background-image: linear-gradient(to right top, #6491f6, #8186ff, #a676ff, #cd5efc, #f433ec); 
+
+}
+
+.status{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.up{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 5%;
+}
+
+.dsc{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    padding: 0 1.5rem;
+}

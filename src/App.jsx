@@ -29,7 +29,7 @@ function App() {
     <div className='container'>
       
 <h3 className="usr">Username</h3>
-    <input className='usrname' type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+    <input className='usrnme' type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
     <button className='btn' onClick={checkStatus}>Check Status</button>
     {loading && <div className='status' >Loading...</div>}
     {status === 'fake' && <div className='status'>Fake Account</div>}
