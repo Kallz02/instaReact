@@ -1,0 +1,33 @@
+
+header{
+    height: 5rem;
+    
+    background-color:rgba(#02010a,0.02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;   
+    color: white; 
+}
+
+svg{
+    height: 3rem;
+    width: 3rem;
+}
+
+.git{
+filter: invert(1);
+}
+
+
+.lol{
+    display: flex;
+    justify-content: center;
+}
+
+.lol1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
